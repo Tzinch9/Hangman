@@ -18,7 +18,7 @@ public class Hangman {
             String choice = scanner.nextLine(); //Выбор пользователя
 
             if (choice.equals("1")) {
-                startGame(scanner); //2 - игра запускается
+                startGame(scanner); //1 - игра запускается
             } else if (choice.equals("2")) {
                 System.out.println("Выход из приложения..."); // 2 - выход
                 break; // Выход из цикла
